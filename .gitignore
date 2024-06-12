@@ -1,0 +1,8 @@
+.vscode/
+applib/__pycache__/
+views/__pycache__/
+env/pyvenv.cfg
+env/
+ui/node_modules/
+ui/dist/
+config/

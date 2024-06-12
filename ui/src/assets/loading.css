@@ -1,0 +1,25 @@
+.public-loading {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-top: 4px solid #333;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: public-loading-spin 1s linear infinite;
+  }
+
+@keyframes public-loading-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.public-loading-cent{ 
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-top: 4px solid #333;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: public-loading-spin 1s linear infinite;
+  margin-top: 40vh;
+  margin-left: 50vw;
+  margin-right: 50vw;
+}
